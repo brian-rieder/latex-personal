@@ -1,0 +1,106 @@
+\documentclass{article}
+
+\usepackage[margin=1.0in]{geometry}
+\usepackage{graphicx}
+
+\title{Electrical and Computer Engineering \\ 
+Professional Practice Co-op Report
+}
+\author{
+\textbf{General Electric Aviation Systems} \\
+\\
+\textit{Author}:     Brian Rieder\\
+\textit{Advisor}:    Cindy Quillen\\
+\textit{Supervisor}: Kenneth Thompson
+}
+\date{24 August 2015}
+
+\begin{document}
+% title page
+\maketitle
+\begin{center}
+  \includegraphics[width=5cm,height=5cm,keepaspectratio]{General_Electric_1930.png}
+\end{center}
+\pagenumbering{gobble}
+\newpage
+
+% table of contents
+\tableofcontents
+\pagenumbering{gobble}
+\newpage
+
+% document body
+\pagenumbering{arabic}
+
+% -------------------------------------- COMPANY DESCRIPTION
+\section{Company Description}
+\subsection{Company History}
+\subsubsection{General Electric}
+General Electric is a multinational conglomerate corporation founded in 1892 in Schenectady, New York by Thomas Edison. The headquarters is still located in Schenectady with Jeffrey Immelt residing as the CEO and Chairman. 
+As of 2015, there are a multitude of subsets of the company located across the United States that include Appliances, Power and Water, Oil and Gas, Energy Management, Aviation, Healthcare, Transportation, and Capital -- all of which function in the home appliances, financial services, medical equipment, life sciences, pharmaceutical, automotive, software development, and engineering industries.
+\subsubsection{GE Aviation}
+GE Aviation, one of the aforementioned subsidiaries of General Electric, is headquartered in Evendale, Ohio. GE Aviation is the primary aircraft engine supplier in the country, but also works within the electrical side of the aviation industry on the design and implementation of products such as Flight Management Systems (FMS) and Integrated Modular Architectures (IMA) in its avionics facility in Grand Rapids, Michigan. 
+GE Aviation maintains contracts with international government and private customers such as the US Navy, Boeing, COMAC, and Dassault Systèmes. 
+GE Aviation Systems, specifically, maintains a joint venture with COMAC, a Chinese aerospace company, called Aviage and worked together to create the C919 passenger jet.
+\subsection{Assignment Placement Description}
+While working for General Electric, I was placed in GE Aviation Systems, formerly Smiths Aerospace, in Grand Rapids, Michigan.
+As mentioned previously, GE Aviation Systems is the GE Aviation subset that specializes in the design and implementation of next generation avionics in the aerospace industry.
+This specific assignment landed me in the IMA internal research and development aspect of the company that was partnered with Aviage to determine the most effective next generation business jet architecture to pull away from the previous models.
+This meant that there was direct interaction with Aviage to create a business jet model that could be used by companies such as Dassault Systèmes and Gulfstream Aerospace.
+
+% -------------------------------------- WORK DESCRIPTION
+\section{Work Description}
+\subsection{Business Jet Modeling}
+My primary assignment was within the Business Jet Platform Architecture Study internal IMA research and development team. The goal of the team was to generate a model using an in-house, next generation IMA to replace the federated architecture that is present on most modern business jets.
+I was assigned three chapters defined by the ATA 100 standard: ATA 26 (Fire Protection), ATA 28 (Fuel), and ATA 38 (Water and Waste). By having these chapters assigned to me, I was given the responsibility of creating a digital model representation of the aircraft through hardware placement and connection, determining the allocation of input/output connections to the architecture, and to define via allocation and aggregation what functions all of the hardware and software within the model served as well as the interconnections between my chapters and ones completed by other engineers.
+\subsection{Tools and Web Based Application Development}
+When it was realized that the vast majority of my interests and personal experience were within the realm of software engineering, I partnered up with the lead tools developer on the team to begin work on a web based application that allowed our modeling engineers to access and update the model of the aircraft without the necessity of creating direct database queries and updates -- ultimately increasing the productivity of the team through the usage of streamlined tools.
+The use of these tools allowed our engineers to move away from database interaction with purchased tools such as Enterprise Architect to use our homegrown applications built with PHP and JavaScript and maintained by two local engineers and create changes to the model stored within an MSSQL database without having to think about most of the interaction within the system, as part of my assignment was to ensure that the tools were versatile and robust enough to not only function when being used by someone new to the project, but to also attempt to predict what that person was attempting to do and correct it for them.
+
+
+% -------------------------------------- WORK RESPONSIBILITIES
+\section{Work Responsibilities}
+While the work assignment was entirely different from my previous rotation working on the P-8 Poseidon for Boeing and the US Navy, when looking at the two objectively I was given massively more responsibility this rotation than in the previous. 
+When working the P-8 project, I worked as a fully functional systems engineer -- I wrote tests, performed tests, wrote problem reports, and automated tasks that were necessary to be performed by an engineer. 
+In this role, however, I took the role of lead modeling engineer on my three assigned subsections -- meaning that when someone had a question about the fire protection, fuel, or water distribution systems, I was the one with the answer.
+This responsibility and knowledge was a drastic change from my previous rotation and there was a lot more riding on my knowledge of the subsystems to ensure that the end product was actual in deliverable form.
+The responsibility didn't stop there, however, as when I worked on the tools web application development, I was placed in a role where I performed all of my validation and verification of the functionality of the tools to ensure that sending them live on the server would result in the engineers having an increase of productivity.
+This meant I was also forced to own my mistakes when I sent them live, receive bug reports, and fix them of my own accord.
+All-in-all, the pressure and responsibility placed on me this rotation makes my previous assignment pale in comparison -- however, it was pleasant to be assigned tasks that were up to par with my skill level and allowed me to grow as an employee.
+
+% -------------------------------------- USE OF PRIOR COURSEWORK
+\section{Use of Prior Coursework}
+Unfortunately, I found that I was only able to apply one class directly to this rotation, but rather found that the majority of the expertise I was able to apply was from my previous rotation as well as my personal programming pursuits. 
+Due to my familiarity with the functionality of the FMS within an aircraft from my time working on the P-8 Poseidon, I found that I was able to apply some of the performance and connectivity conventions that I'd seen previously to the model that I was working on for the generic business jet. The P-8, though, is a Boeing 737 based military aircraft, so there was a significant size difference between the two that led to the necessity of certain components that wouldn't necessarily be present otherwise. The primarily application of my classes, though, came with the programming of the web application that I was working on.
+ECE 264, Advanced C Programming, turned out to be valuable exposure that spurred my launch into programming pursuits in my spare time to expose me to HTML, CSS, PHP, and JavaScript that I used during the entirety of my time programming this session. Not only that, but I was able to practice valuable debugging techniques in that class that allowed me to be more efficient and effective during my rotation.
+Some minor electrical exposure helped me with some of the model analysis, but I found that I would have been able to use Google to acquire sufficient knowledge to do the calculations that were necessary for this rotation.
+
+% stupid formatting...
+\newpage
+% -------------------------------------- NEW KNOWLEDGE
+\section{New Knowledge and Skills Acquired}
+\subsection{Aircraft Subsystems}
+Modeling efforts gave me massive exposure to the inner workings of an aircraft defined by ATA 100 chapters. As I was assigned ATA chapters 26, 28, and 38 -- Fire Protection, Fuel, and Water and Waste, respectively -- that is where the majority of the information that I learned fell into place. Not only do I have a strong understanding of all the hardware and software associated with each chapter, I also have an understanding of how those subsystems fall within the larger system view of the aircraft and how they interact with other chapters dispersed across the aircraft.
+The knowledge I gained through the modeling efforts is going to be immensely helpful provided that I pursue an occupation in aerospace and even more so if I pursue an occupation in avionics and IMA. The largest downside of this exposure, though, is that none of the knowledge gained on this team -- outside of interpersonal interaction and working on a team -- will never be applicable outside of the aerospace industry, thus forcing me into somewhat of a niche if I want to fully utilize everything I learned in this rotation.
+
+\subsection{Programming Expertise}
+Programming was my primary takeaway this rotation, as I was given an enormous amount of exposure to various languages.
+\subsubsection{JavaScript}
+I had very little direct interaction with JavaScript coming into this rotation, but by the end I considered myself a fully functional developer in the language. JavaScript is a high-level interpreted language that is executed primarily on the client-side in web based applications. Not only did I learn the applications and basis of the language, but I also found that overuse of JavaScript in the wrong application can cause massive security holes. Because of this, I was constantly on the lookout for computations or authorizations that should be incorporated on the server-side and reducing the reliance on the client's browser to do much of the computation -- giving me a strong bearing on security applications that are associated with web application development.
+\subsubsection{PHP}
+Before this rotation, I had never worked with PHP in my life. PHP is an extremely powerful and dynamic programming language that is executed on the server-side of a web application -- I also found it to be one of the easiest programming languages that I have ever learned. I found that PHP is remarkably resilient and tolerant of user errors, but that also results in unexpected behavior at times where it isn't desired. I grew to love PHP and how powerful it was, but that was primarily due to my ability to directly interact with all of the stored data for the aircraft model from the language.
+\subsubsection{MSSQL}
+The underlying data skeleton of our web application, MSSQL gave us a method of storing, querying, and editing all of the data that constructed the models that we worked with on a daily basis. MSSQL is a Microsoft variant of SQL, the structured querying language. We were able to construct a database comprised of tables and craft queries that allowed us to get exactly the data we were looking for in any specific application. I had never worked so closely with databases before this rotation, so this experience was immensely valuable due to the growing need for handling large sets of data in an efficient manner.
+
+% -------------------------------------- AWARDS AND HONORS
+\section{Awards and Honors}
+\begin{description}
+  \item[Above and Beyond Bronze Award (25 USD)] \hfill \\
+    Award to express gratitude for efforts exceeding the expectation or requested detail in an assignment. This was awarded for efforts performed while the rest of the team was in Shanghai, China -- thus leaving me with no immediate references and to extrapolate and improvise enough to create a working part of the model very early on in my rotation.
+  \item[Above and Beyond Bronze Award (250 USD)] \hfill \\
+    Award to express gratitude for efforts exceeding the expectation or requested detail in an assignment. This was awarded for efforts when on-boarding new summer interns to create modeling data for their assigned chapters. By doing this, I took much of the load off of the full time engineers and allowed productivity to continue closer to its normal rate. This also gave the newer employees a resource closer to their demographic that they were less nervous to come to with questions that they might not have otherwise had addressed.
+  \item[Above and Beyond Silver Award (500 USD)] \hfill \\
+    Award to express gratitude for efforts exceeding the expectation or requested detail in an assignment. This was awarded for efforts in developing new aspects of the tools that enabled us to automate much of the diagram generation for delivery to customers. By creating this, I reduced the time that it took to generate a hardware diagram down from two hours to fifteen minutes and to generate a functional decomposition diagram from four hours to fifteen minutes.
+\end{description}
+
+\end{document}
